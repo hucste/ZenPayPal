@@ -1,0 +1,124 @@
+*** 1.1.9.1 ***
+(2013.03.30)
+PHP: Correct links generate in method printPaypalButton() to return good scheme
+
+*** 1.1.9 ***
+(2013.03.23)
+PHP: add new options on Administration to change texts segun your language.
+PHP: add method setCurrencySymbol to display Currency Symbol.
+
+*** 1.1.8.2 ***
+(2011.08.23)
+PHP: Correct a bug with object zenpaypal's method getPluginVersion
+
+*** 1.1.8.1 ***
+(2011.08.19)
+PHP: add PayPal's options 'cbt', 'charset', 'cpp_header_image', 'lc', all 'page_style', ...
+
+*** 1.1.8 ***
+(2011.08.02)
+PHP: now is POO.
+PHP: add an option 'tax rate'... see this option on Administration.
+
+*** 1.1.7.4 ***
+(2011.05.13)
+PHP: function setZenPayPalVariables: to declare variables string needed.
+PHP: add an option 'filename' on PayPal Description
+
+JS: rectify usage to changeQuantity...
+
+*** 1.1.7.3 ***
+(2011.04.01)
+PHP: Correct a bug on function getZenPayPalPriceList(): about quantity...
+
+HTML: Correct writing code for table in function printZenPayPalPriceList()
+
+*** 1.1.7.2 ***
+(2011.03.08)
+PHP: Replace all functions deprecated: ereg()
+
+*** 1.1.7.1 ***
+(2011.01.12)
+Modify plugin to run correctly with zenphoto 1.4
+
+*** 1.1.7 ***
+(2010.08.04)
+Code PHP
+- adding all currencies supported by PayPal.
+
+- implement option zenpaypal:viewing_pricelist to using in the Custom Datas
+	and modify call in function zenPaypal()
+
+- implement a option to change size of PayPal's button. View in Administrative
+	panel the option 'PayPal: Button size'. Choice possible are Normal or Small.
+
+- implement the possibility to use PayPal's button encrypted.
+	Necessary to test-it ... at your risk and perils ! ;-)
+	I don't know if run correctly ... needed testers !!!
+
+*** 1.1.6 ***
+(2010.06.20)
+Code PHP
+- modify the code to permit differents sizes, shipping, quantities by using the Custom Datas !
+	(Album and Image ...)
+
+*** 1.1.5.2 ***
+(2010.05.16)
+Code PHP
+- rectify code on variable $css in function printZenPayPalToCSS()
+(thanks to 'Blue DragonFly' : http://www.zenphoto.org/support/profile.php?id=35213)
+
+*** 1.1.5.1 ***
+(2010.04.12)
+Code PHP
+- rectify bug on 'price list' with text and spaces.
+
+*** 1.1.5 ***
+(2009.11.12)
+Code PHP
+- rename functions to compliant with ZenPhoto Developer Guideline :
+=> zenPaypalDisplayLogoPaypal() is now printZenPayPalLogo()
+
+*** 1.1.4 ***
+Code PHP:
+- modify buttons PayPal, segun Paypal's Developer Guide.
+- add function zenPaypalDisplayPaypalLogo() : display visual PayPal logo in script
+ sidebar.php; use-it as:
+<?php if(function_exists('zenPaypalDisplayLogoPaypal')) zenPaypalDisplayLogoPaypal() ?>
+
+*** 1.1.3 ***
+Section "Administration":
+- Implement an option to define order of informations in PayPal's Description
+
+Code PHP:
+- call to zenPaypalToJS is not nessecary in script image.php, called by addPluginScript()
+- modify code to be compliant with developer guidelines.
+
+*** 1.1.2 ***
+Section "Administration":
+- Implement choice how to run the plugin : cart or "buy now".
+- Implement viewing price list, and possible to modify text, tag and id
+
+*** 1.1.1 ***
+Section "Administration":
+- implement all currencies supported by PayPal
+
+Code PHP:
+- function zenPaypalToJS : delete variables in appel
+- function zenPaypal :
+-> inverse order of variable $pricelistlink and $pricelist in appel
+-> 'localize' url for buttons ;-)
+-> a lot of bits to modified. @micheall : ty.
+
+*** 1.1.0 ***
+Section "Administration":
+- add new options default to setting html background of paypal page web,
+ to test it with sandbox paypal, and others options to using with paypal cart.
+
+Modify php code !
+
+it's run as cart (panel) ...
+also, it's possible to adding few objects in the cart before billing.
+
+*** 1.0.1 ***
+First version : original version created Ebrahim Ezzy, adapted by sbillard

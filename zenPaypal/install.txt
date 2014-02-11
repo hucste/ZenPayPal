@@ -1,0 +1,48 @@
+*** Install ***
+
+Place folder and files in /plugins
+
+
+*** add the code ***
+Edit the script image.php on your theme :
+
+1/ in section body, in <div id="narrow"> :
+	<?php if(function_exists('zenPaypal')) zenPaypal(); ?>
+
+2/ Save it and up in your webspace !
+
+*** Administrate it ***
+1/ Active it in section Extensions
+
+2/ Set it in Options > Extensions
+
+*** Individuals settings ***
+To set individuals options for item image, it's necessary to using Custom Datas (on Album or Image)!
+Writing 'zenpaypal options' line per line, without spaces.
+
+Put on the section Custom Datas :
+
+=> No paypal cart :
+	zenpaypal:nopaypal
+
+=> Pricelist :
+	zenpaypal:pricelist:size;media;price;quantity|size;media;price
+
+	The informations size, media and price need to be absolutly specified.	
+	Necessary to separate size, media, price and quantity by semi-colons ';'.
+	'media' : if you need to writing with spaces, replace spaces with this symbol '_' (underscore).
+	'quantity' is optional ; if you are setting this, writing with 'q' before number.
+
+	example : zenpaypal:pricelist:10x15;Xtrem_Paper_Thin;3.3;q3|13x18;Paper_Glossy;6.99|18x24;Paper Thin Xtra;18;q7
+	
+=> shipping :
+	zenpaypal:shipping:number
+
+=> tax :
+	zenpaypal:tax:number
+
+=> viewing pricelist :
+	zenpaypal:viewing_pricelist:binary
+	
+	binary: 0 or 1!
+

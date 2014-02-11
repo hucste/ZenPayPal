@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zenPaypal 1.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 11:09+0100\n"
+"PO-Revision-Date: 2010-08-02 20:47+0100\n"
+"Last-Translator: Stéphane HUC <devs@stephane-huc.net>\n"
+"Language-Team: Stéphane HUC (hucste) <devs@stephane-huc.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: /Applications/\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+"X-Poedit-SearchPath-0: zTRANSLATE\n"
+
+msgid "PayPal Integration"
+msgstr "PayPal Intégration"
+
+msgid "Ebrahim Ezzy (Nimbuz) , adapted as a plugin by Stephen Billard (sbillard) , modified by Stephane HUC (hucste)"
+msgstr "Ebrahim Ezzy (Nimbuz), adapté comme plugin par Stephen Billard (sbillard), modifié par Stephane HUC (hucste)"
+
+msgid "PayPal: User ID"
+msgstr "PayPal : ID Utilisateur"
+
+msgid "Your PayPal User ID: currently, your email!"
+msgstr "Votre Identifiant Utilisateur PayPal : normalement votre courriel !"
+
+msgid "Cart or Buy Now"
+msgstr "Panier ou Achat Maintenant"
+
+msgid "Cart"
+msgstr "Panier"
+
+msgid "BuyNow"
+msgstr "Achat Maintenant"
+
+msgid "How act this plugin: as cart or button [Buy Now]."
+msgstr "Comment cette extension agit : comme panier ou bouton [Achat Maintenant]."
+
+msgid "PayPal: Currency"
+msgstr "PayPal : Devise"
+
+msgid "Dollar"
+msgstr "Dollar"
+
+msgid "Dollar australian"
+msgstr "Dollar australien"
+
+msgid "Dollar canadian"
+msgstr "Dollar canadien"
+
+msgid "Euro"
+msgstr "Euro"
+
+msgid "Livre sterling"
+msgstr "Livre sterling"
+
+msgid "Japan Yen"
+msgstr "Yen Japonais"
+
+msgid "The currency for your transactions: USD for USA, EUR for Europe, etc..."
+msgstr "La devise de vos transactions : USD pour les USA, EUR pour l'Europe, etc..."
+
+msgid "Page PayPal: HTML Background Color Header"
+msgstr "Page PayPal : Couleur HTML d'Arrière Plan de l'entête"
+
+msgid "Define Header Page PayPal's Background Color. Code HTML Hexa without #, six characters"
+msgstr "Définit la couleur de l'arrière plan de l'entête de la page PayPal. Code HTML Hexadécimal, sans le symbole #, six caractères"
+
+msgid "Page PayPal: HTML Border Color Header"
+msgstr "Page PayPal : Couleur HTML de la bordure de l'entête"
+
+msgid "Define Header Page PayPal's Border Color. Code HTML Hexa without #, six characters"
+msgstr "Définit la couleur de la bordure de l'entête de la page PayPal. Code HTML Hexadécimal, sans le symbole #, six caractères"
+
+msgid "Page PayPalFlow: HTML Background Color Header"
+msgstr "Page PayPalFlow : Couleur HTML de l'arrière plan de l'entête"
+
+msgid "Define Header Page PayPalFlow's Background Color. Code HTML Hexa without #, six characters"
+msgstr "Définit la couleur de l'arrière plan de l'entête de la page PayPalFlow. Code HTML Hexadécimal, sans le symbole #, six caractères"
+
+msgid "Page PayPal: Background Color"
+msgstr "Page PayPal : Couleur d'arrière plan"
+
+msgid "White"
+msgstr "Blanc"
+
+msgid "Black"
+msgstr "Noir"
+
+msgid "Define Background Color Page PayPal; default is white."
+msgstr "Définit la couleur d'arrière plan de la page PayPal ; par défaut, elle est blanche"
+
+msgid "PayPal: Image Logo"
+msgstr "PayPal : Image Logo"
+
+msgid "Define your Logo's image: URL"
+msgstr "Définit l'URL de votre image Logo"
+
+msgid "PayPal: Description"
+msgstr "PayPal : Description"
+
+msgid "Album; Photo;"
+msgstr "Album ; Photo ; "
+
+msgid "Album; Photo; Media;"
+msgstr "Album ; Photo ; Média ; "
+
+msgid "Album; Photo; Media; Size;"
+msgstr "Album ; Photo ; Média ; Taille ; "
+
+msgid "Album; Photo; Size;"
+msgstr "Album ; Photo ; Taille ; "
+
+msgid "Album; Photo; Size; Media;"
+msgstr "Album ; Photo ; Taille ; Média ; "
+
+msgid "Define order of informations in PayPal's Description. <em>This is not PayPal's option!</em>"
+msgstr "Définit l'ordre des informations dans la section Description de la page PayPal. <em>Ceci n'est pas une option PayPal !</em>"
+
+msgid "PayPal: Permit comment"
+msgstr "PayPal : Permettre commentaire"
+
+msgid "The buyer can't add a comment"
+msgstr "L'acheteur ne doit pas ajouter de commentaire"
+
+msgid "The buyer can add a comment"
+msgstr "L'acheteur doit ajouter un commentaire"
+
+msgid "To permit at the buyer to adding a comment."
+msgstr "Permettre à l'acheteur d'ajouter un commentaire."
+
+msgid "PayPal: Permit to adding shipping address"
+msgstr "PayPal : permettre d'ajouter adresse de livraison"
+
+msgid "To invite the buyer to type a shipping address"
+msgstr "Inviter l'acheteur à taper son adresse de livraison"
+
+msgid "The buyer can't adding a shipping address"
+msgstr "L'acheteur ne doit pas ajouter une adresse de livraison"
+
+msgid "The buyer must be adding a shipping address"
+msgstr "L'acheteur doit ajouter une adresse de livraison"
+
+msgid "Price list"
+msgstr "Liste de Prix"
+
+msgid "<strong>Your pricelist!</strong><br />The format of this option is <em>price elements</em> separated by the symbole '<strong>|</strong>'. <em>([Alt Gr] + [6])</em>.<br/>"
+msgstr "<strong>Votre Liste de prix !</strong><br />Le format de cette option est <em>ensemble de prix</em> séparés par le symbole '<strong>|</strong>'. <em>([Alt Gr] + [6])</em><br/>"
+
+msgid "A <em>price element</em> has this format: <em>size</em>"
+msgstr "Un <em>ensemble de prix</em> a cette forme : <em>taille</em>"
+
+msgid "<em>media</em>"
+msgstr "<em>média</em>"
+
+msgid "<em>price</em><br/>"
+msgstr "<em>prix</em><br/>"
+
+msgid "<em>media</em> is a text with or without spaces<br />"
+msgstr "<em>média</em> est un text avec ou sans espaces<br />"
+
+msgid "<br />example: <code>"
+msgstr "<br />exemple : <code>"
+
+msgid "</code>"
+msgstr "</code>"
+
+msgid "HTML Table: id"
+msgstr "Table HTML : id(entifiant)"
+
+msgid "IDentifiant to the bloc DIV for the price list. <strong>Only modify this if you know what's doing</strong>. <em>This is not PayPal's option!</em>"
+msgstr "Identifiant du bloc DIV de la liste de prix. <strong>Modifiez cela seulement si vous savez ce que vous faites !</strong>. <em>Ceci n'est pas une option de PayPal !</em>"
+
+msgid "HTML Table: tag element"
+msgstr "Table HTML : élément tag"
+
+msgid "HTML element to the link text for the price list. Default: h3. <strong>Only modify this if you know what's doing</strong>. <em>This is not PayPal's option!</em>"
+msgstr "Élément HTML pour le lien vers le texte de la liste de prix. Défaut : h3 <strong>Modifiez cela seulement si vous savez ce que vous faites !</strong>. <em>Ceci n'est pas une option PayPal !</em>"
+
+msgid "HTML Table: text"
+msgstr "Table HTML : Texte"
+
+msgid "The text for the link to displaying the table html to list objects -> price. <em>This is not PayPal's option!</em>"
+msgstr "Le texte pour le lien qui affiche la table HTML correspondant à la liste des objets -> prix. <em>Ceci n'est pas une option PayPal !</em>"
+
+msgid "HTML Table: Viewing Price list"
+msgstr "Table HTML : Voir la Liste de Prix"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "Adding a table html to viewing a list objects -> price. <em>This is not PayPal's option!</em>"
+msgstr "Ajouter une table HTML pour voir la liste d'objets -> prix. <em>Ceci n'est pas une option de PayPal !</em>"
+
+msgid "Quantity maximum"
+msgstr "Quantité maximum"
+
+msgid "Choose an index to define an item's quantity max!"
+msgstr "Choisir un index pour définir la quantité maximale !"
+
+msgid "Sandbox PayPal"
+msgstr "Environnement de test de PayPal"
+
+msgid "Use Sandbox PayPal to test zenPaypal. By default: no coche"
+msgstr "Utilisez l'environnement de test de PayPal. Par défaut : non coché"
+
+msgid "PayPal: Shipping cost"
+msgstr "PayPal : Coût de Livraison"
+
+msgid "What you charge for shipping."
+msgstr "La charge de livraison"
+
+msgid "PayPal: Tax"
+msgstr "PayPal : Taxe"
+
+msgid "What you charge for tax."
+msgstr "La Taxe !"
+
+msgid "Album: "
+msgstr "Album : "
+
+msgid "; Photo: "
+msgstr " ; Photo : "
+
+msgid "; Media: "
+msgstr " ; Média : "
+
+msgid "; Size: "
+msgstr " ; Taille : "
+
+msgid "Buy with PayPal"
+msgstr "Achat avec PayPal"
+
+msgid "Choose size, media."
+msgstr "Choisir la taille, le média."
+
+msgid "Size"
+msgstr "Taille"
+
+msgid "Quantity"
+msgstr "Quantité"
+
+msgid "Buy with PayPal : a solution fast, free and secure !"
+msgstr "Achetez avec PayPal : une solution rapide, gratuite et sécurisée !"
+
+msgid "Informations object's prices"
+msgstr "Informations sur le prix des objets"
+
+msgid "size"
+msgstr "taille"
+
+msgid "media"
+msgstr "média"
+
+msgid "price"
+msgstr "prix"
+
+msgid "quantity"
+msgstr "quantité"
+
+msgid "This gallery use PayPal"
+msgstr "Cette galerie utilise PayPal"
+
+msgid "PayPal's logo"
+msgstr "Logo de PayPal"
+
