@@ -1,3 +1,7 @@
+*** 1.1.9.2 ***
+(2015.04.19)
+PHP: Correct method printPaypalButton() to use good scheme by calling getAlbumURL() and getImageURL()
+
 *** 1.1.9.1 ***
 (2013.03.30)
 PHP: Correct links generate in method printPaypalButton() to return good scheme

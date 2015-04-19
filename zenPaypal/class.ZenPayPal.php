@@ -432,7 +432,7 @@ class ZenPayPal {
 
 					if(!empty($this->zenpaypal['option']['business']))	$zenPaypal['business'] = $this->zenpaypal['option']['business'];
 
-					$zenPaypal['cancel_return'] = $this->zenpaypal['website'].htmlspecialchars(@getImageLinkURL());
+					$zenPaypal['cancel_return'] = $this->zenpaypal['website'].htmlspecialchars(@getImageURL());
 					if(!empty($this->zenpaypal['option']['cbt']))	$zenPaypal['cbt'] = $this->zenpaypal['option']['cbt'];
 					if(!empty($this->zenpaypal['option']['charset']))	$zenPaypal['charset'] = $this->zenpaypal['option']['charset'];
 					if(!empty($this->zenpaypal['option']['cpp_header_image']))	$zenPaypal['cpp_header_image'] = $this->zenpaypal['website'].'/'.$this->zenpaypal['option']['cpp_header_image'];
@@ -458,7 +458,7 @@ class ZenPayPal {
 							case 'paypal': unset($zenPaypal['page_style']); break;
 						}
 					}
-					$zenPaypal['return'] = $this->zenpaypal['website'].htmlspecialchars(@getAlbumLinkURL());
+					$zenPaypal['return'] = $this->zenpaypal['website'].htmlspecialchars(@getAlbumURL());
 					//$zenPaypal['rm'] = $this->zenpaypal['option']['rm'];
 
 					if(isset($this->custom_datas['image']['shipping'])) {
